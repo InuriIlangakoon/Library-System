@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-image: url("book.jpg");
+    background-size: cover;
+    padding: 1.2em;
+    font-family: 'Raleway', 'Arial';
+    color: #fff;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 1em 0em 1em 4em;
+    background-color: #523c10;
+}
+  
+ul li {
+    display: inline;
+    margin-right: 60px;
+}
+  
+ul li a {
+    font-size: 1em;
+  }
+  
+a {
+    color: #f9ffef;
+    text-decoration: none;
+}
+  
+li a:hover {
+    color: #817112;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #6a4f14;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+  
+input[type=submit]:active, input[type=reset]:active {
+    transform: translateY(4px);
+}
+  
+input[type=text] {
+    width: 100%;
+    margin: 2px 60px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
