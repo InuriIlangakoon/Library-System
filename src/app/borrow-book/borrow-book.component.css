@@ -1,0 +1,50 @@
+th, td {
+    padding: 15px;
+}
+
+th {
+    font-size: 22px;
+}
+  
+.borrow {
+    padding: 3em;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgb(80, 33, 17);
+    position: relative;
+}
+  
+.date {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #6a4f14;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+  
+input[type=submit]:active, input[type=reset]:active {
+    transform: translateY(4px);
+}
+  
+.ids {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+}
