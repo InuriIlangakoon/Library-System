@@ -10,7 +10,7 @@ th {
     padding: 3em;
     border-radius: 20px;
     border-style: solid;
-    background-color: rgb(80, 33, 17);
+    background-color: #5b2458;
     position: relative;
 }
   
@@ -24,7 +24,7 @@ th {
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #6a4f14;
+    background-color: #333333;
     border-radius: 5px;
     border: none;
     color: white;
