@@ -333,56 +333,56 @@ header .search-bar-container label:hover{
   color:#666;
 }
 
-.packages .box-container{
+.eLibrary .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:2rem;
 }
 
-.packages .box-container .box{
+.eLibrary .box-container .box{
   flex:1 1 30rem;
   border-radius: .5rem;
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 
-.packages .box-container .box img{
+.eLibrary .box-container .box img{
   height: 25rem;
   width:100%;
   object-fit: cover;
 }
 
-.packages .box-container .box .content{
+.eLibrary .box-container .box .content{
   padding:2rem;
 }
 
-.packages .box-container .box .content h3{
+.eLibrary .box-container .box .content h3{
   font-size:2rem;
   color:#333;
 }
 
-.packages .box-container .box .content h3 i{
+.eLibrary .box-container .box .content h3 i{
   color:var(--orange);
 }
 
-.packages .box-container .box .content p{
+.eLibrary .box-container .box .content p{
   font-size:1.7rem;
   color:#666;
   padding:1rem 0;
 }
 
-.packages .box-container .box .content .stars i{
+.eLibrary .box-container .box .content .stars i{
   font-size:1.7rem;
   color:var(--orange);
 }
 
-.packages .box-container .box .content .price{
+.eLibrary .box-container .box .content .price{
   font-size: 2rem;
   color:#333;
   padding-top: 1rem;
 }
 
-.packages .box-container .box .content .price span{
+.eLibrary .box-container .box .content .price span{
   color:#666;
   font-size: 1.5rem;
   text-decoration: line-through;
@@ -422,13 +422,13 @@ header .search-bar-container label:hover{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 
-.gallery .box-container{
+.category .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
 }
 
-.gallery .box-container .box{
+.category .box-container .box{
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   border:1rem solid #fff;
@@ -438,13 +438,13 @@ header .search-bar-container label:hover{
   position: relative;
 }
 
-.gallery .box-container .box img{
+.category .box-container .box img{
   height: 100%;
   width:100%;
   object-fit: cover;
 }
 
-.gallery .box-container .box .content{
+.category .box-container .box .content{
   position: absolute;
   top:-100%; left:0;
   height: 100%;
@@ -455,16 +455,16 @@ header .search-bar-container label:hover{
   padding-top: 5rem;
 }
 
-.gallery .box-container .box:hover .content{
+.category .box-container .box:hover .content{
   top:0;
 }
 
-.gallery .box-container .box .content h3{
+.category .box-container .box .content h3{
   font-size: 2.5rem;
   color:var(--orange);
 }
 
-.gallery .box-container .box .content p{
+.category .box-container .box .content p{
   font-size: 1.5rem;
   color:#eee;
   padding:.5rem 0;
