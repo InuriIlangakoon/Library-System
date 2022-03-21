@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-image: url("book.jpg");
+    background-image: url("back1.png");
+    background-repeat: no-repeat;
     background-size: cover;
     padding: 1.2em;
     font-family: 'Raleway', 'Arial';
@@ -10,9 +11,9 @@ body {
   
 ul {
     list-style-type: none;
-    margin: 0 0 2em 0;
+    margin: -1.5em -1.5em 2em -1.5em;
     padding: 1em 0em 1em 4em;
-    background-color: #523c10;
+    background-color: #333333;
 }
   
 ul li {
@@ -30,6 +31,6 @@ a {
 }
   
 li a:hover {
-    color: #817112;
+    color: #9f59c0;
 }
 
